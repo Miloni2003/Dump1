@@ -1,3 +1,17 @@
+/*
+==================================================
+JUST BECAUSE
+==================================================
+*/
+
+const pageTitle = "Just Because";
+
+const pageIcon = "❤️";
+
+const pageSubtitle =
+    "No special reason. You can scan this anytime.";
+
+
 const messages = [
 
     "No reason. No occasion. Just a little reminder that you are loved. ❤️",
@@ -52,6 +66,30 @@ const messages = [
 
 ];
 
-const randomIndex = Math.floor(Math.random() * messages.length);
 
-document.getElementById("message").textContent = messages[randomIndex];
+document.title = pageTitle + " ❤️";
+
+document.getElementById("icon").textContent =
+    pageIcon;
+
+document.getElementById("title").textContent =
+    pageTitle;
+
+document.getElementById("subtitle").textContent =
+    pageSubtitle;
+
+
+/*
+==================================================
+SHOW ONE RANDOM MESSAGE
+==================================================
+*/
+
+const randomIndex =
+    Math.floor(
+        Math.random() * messages.length
+    );
+
+
+document.getElementById("message").textContent =
+    messages[randomIndex];

@@ -1,3 +1,17 @@
+/*
+==================================================
+LITTLE REMINDER
+==================================================
+*/
+
+const pageTitle = "Little Reminder";
+
+const pageIcon = "🌷";
+
+const pageSubtitle =
+    "A little reminder for the person who often forgets herself.";
+
+
 const messages = [
 
     "You spend so much time taking care of everyone else. Please remember to take care of yourself too.",
@@ -52,6 +66,30 @@ const messages = [
 
 ];
 
-const randomIndex = Math.floor(Math.random() * messages.length);
 
-document.getElementById("message").textContent = messages[randomIndex];
+document.title = pageTitle + " ❤️";
+
+document.getElementById("icon").textContent =
+    pageIcon;
+
+document.getElementById("title").textContent =
+    pageTitle;
+
+document.getElementById("subtitle").textContent =
+    pageSubtitle;
+
+
+/*
+==================================================
+SHOW ONE RANDOM MESSAGE
+==================================================
+*/
+
+const randomIndex =
+    Math.floor(
+        Math.random() * messages.length
+    );
+
+
+document.getElementById("message").textContent =
+    messages[randomIndex];

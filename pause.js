@@ -1,3 +1,17 @@
+/*
+==================================================
+LITTLE PAUSE
+==================================================
+*/
+
+const pageTitle = "Little Pause";
+
+const pageIcon = "🌸";
+
+const pageSubtitle =
+    "For the days when your mind feels a little too full.";
+
+
 const messages = [
 
     "You don't have to figure everything out today. Take a breath and give yourself a little time.",
@@ -22,7 +36,7 @@ const messages = [
 
     "Slow down. You don't have to be in a hurry to reach everything.",
 
-    "Take a moment. Breathe. You are safe to simply exist without doing anything.",
+    "Take a moment. Breathe. You are allowed to simply be.",
 
     "Not every thought deserves your attention. Let a few of them pass by.",
 
@@ -32,7 +46,7 @@ const messages = [
 
     "You don't need to have all the answers right now.",
 
-    "Sometimes the best thing you can do is absolutely nothing for a little while.",
+    "Sometimes the best thing you can do is nothing for a little while.",
 
     "Give your mind the same break you would give someone you love.",
 
@@ -52,6 +66,36 @@ const messages = [
 
 ];
 
-const randomIndex = Math.floor(Math.random() * messages.length);
 
-document.getElementById("message").textContent = messages[randomIndex];
+/*
+==================================================
+UPDATE PAGE
+==================================================
+*/
+
+document.title = pageTitle + " ❤️";
+
+document.getElementById("icon").textContent =
+    pageIcon;
+
+document.getElementById("title").textContent =
+    pageTitle;
+
+document.getElementById("subtitle").textContent =
+    pageSubtitle;
+
+
+/*
+==================================================
+SHOW ONE RANDOM MESSAGE
+==================================================
+*/
+
+const randomIndex =
+    Math.floor(
+        Math.random() * messages.length
+    );
+
+
+document.getElementById("message").textContent =
+    messages[randomIndex];
