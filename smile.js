@@ -1,6 +1,17 @@
+/*
+==================================================
+SMILE PLEASE
+==================================================
+*/
+
 const pageTitle = "Smile Please";
+
 const pageIcon = "😊";
-const pageSubtitle = "Because sometimes you just need a little smile.";
+
+const pageSubtitle =
+    "Because sometimes you just need a little smile.";
+
+
 const messages = [
 
     "Okay, enough seriousness for now. Here's your official permission to smile. 😊",
@@ -55,6 +66,30 @@ const messages = [
 
 ];
 
-const randomIndex = Math.floor(Math.random() * messages.length);
 
-document.getElementById("message").textContent = messages[randomIndex];
+document.title = pageTitle + " ❤️";
+
+document.getElementById("icon").textContent =
+    pageIcon;
+
+document.getElementById("title").textContent =
+    pageTitle;
+
+document.getElementById("subtitle").textContent =
+    pageSubtitle;
+
+
+/*
+==================================================
+SHOW ONE RANDOM MESSAGE
+==================================================
+*/
+
+const randomIndex =
+    Math.floor(
+        Math.random() * messages.length
+    );
+
+
+document.getElementById("message").textContent =
+    messages[randomIndex];
