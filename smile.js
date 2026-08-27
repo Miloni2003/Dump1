@@ -1,3 +1,6 @@
+const pageTitle = "Smile Please";
+const pageIcon = "😊";
+const pageSubtitle = "Because sometimes you just need a little smile.";
 const messages = [
 
     "Okay, enough seriousness for now. Here's your official permission to smile. 😊",
