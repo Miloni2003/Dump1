@@ -1,6 +1,5 @@
 /*
 ==================================================
-<<<<<<< HEAD
 SMILE PLEASE
 ==================================================
 */
@@ -11,18 +10,6 @@ const pageIcon = "😊";
 
 const pageSubtitle =
     "Because sometimes you just need a little smile.";
-=======
-LITTLE REMINDER
-==================================================
-*/
-
-const pageTitle = "Little Reminder";
-
-const pageIcon = "🌷";
-
-const pageSubtitle =
-    "A little reminder for the person who often forgets herself.";
->>>>>>> 070f5547fc0ea9d85108bedc0a408362f862b418
 
 
 const messages = [
@@ -105,8 +92,4 @@ const randomIndex =
 
 
 document.getElementById("message").textContent =
-<<<<<<< HEAD
     messages[randomIndex];
-=======
-    messages[randomIndex];
->>>>>>> 070f5547fc0ea9d85108bedc0a408362f862b418
