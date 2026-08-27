@@ -1,5 +1,6 @@
 /*
 ==================================================
+<<<<<<< HEAD
 SMILE PLEASE
 ==================================================
 */
@@ -10,59 +11,71 @@ const pageIcon = "😊";
 
 const pageSubtitle =
     "Because sometimes you just need a little smile.";
+=======
+LITTLE REMINDER
+==================================================
+*/
+
+const pageTitle = "Little Reminder";
+
+const pageIcon = "🌷";
+
+const pageSubtitle =
+    "A little reminder for the person who often forgets herself.";
+>>>>>>> 070f5547fc0ea9d85108bedc0a408362f862b418
 
 
 const messages = [
 
-    "Okay, enough seriousness for now. Here's your official permission to smile. 😊",
+    "You spend so much time taking care of everyone else. Please remember to take care of yourself too.",
 
-    "Just checking... did you smile today? If not, consider this your reminder.",
+    "Your happiness matters just as much as everyone else's.",
 
-    "Your smile looks good on you. Please use it more often. ❤️",
+    "You don't have to earn rest. You deserve it simply because you are you.",
 
-    "No reason needed. Smile anyway. 😄",
+    "Please don't forget the person who is always at the bottom of your priority list—you.",
 
-    "Someone out there is probably smiling because you're part of their life.",
+    "Taking care of yourself isn't selfish. It's necessary.",
 
-    "Today's tiny mission: find one silly thing and enjoy it completely.",
+    "Your dreams matter. Don't keep putting them on hold for everyone else.",
 
-    "You are allowed to have a completely unnecessary happy moment. Go ahead. 😄",
+    "You deserve the same kindness you so freely give to others.",
 
-    "If life is being dramatic today, don't join the drama. Just smile and walk away. 😂",
+    "You are allowed to say no without feeling guilty.",
 
-    "Here's a little reminder that happiness doesn't always need a big reason.",
+    "You don't always have to be the one who holds everything together.",
 
-    "Smile. Not because everything is perfect, but because you deserve a little happiness anyway.",
+    "Someone needs to take care of you too. Let them.",
 
-    "Sending you one invisible hug and one very visible reason to smile. ❤️",
+    "Please remember that being there for yourself is also a form of strength.",
 
-    "If nobody has told you today—you are pretty amazing.",
+    "You are more than the things you do for everyone else.",
 
-    "Go make yourself your favourite drink. Consider that today's tiny celebration. ☕",
+    "Your worth isn't measured by how much you do for other people.",
 
-    "A smile costs nothing and somehow makes everything feel a little lighter.",
+    "It's okay to choose yourself sometimes. Actually, please do.",
 
-    "This message has one job: make you smile. Did it work? 😜",
+    "Don't wait until you're exhausted to give yourself a break.",
 
-    "Forget the to-do list for five minutes. You're allowed to enjoy yourself.",
+    "You deserve beautiful things, peaceful days, and time that belongs only to you.",
 
-    "You make ordinary moments feel special without even trying.",
+    "The world doesn't need you to be perfect. It just needs you to be you.",
 
-    "Today could use a little more of your smile.",
+    "You are important even on the days when you don't accomplish anything.",
 
-    "Reminder: laughing at your own jokes is completely acceptable. 😂",
+    "Please make space for the things that make your heart happy.",
 
-    "Here's your excuse to stop whatever you're doing and do something you enjoy.",
+    "Being caring doesn't mean you have to forget yourself.",
 
-    "Somewhere in this world, someone is very lucky to know you.",
+    "You are someone's favourite person too. Remember that.",
 
-    "You deserve random happiness—not just happiness after everything is done.",
+    "Your needs are not less important just because someone else's needs came first.",
 
-    "Your smile has probably made someone's difficult day better without you knowing.",
+    "It's okay if today you choose yourself first.",
 
-    "Take this as a tiny digital nudge: smile, breathe, and enjoy your day.",
+    "You give so much love away. Save a little of it for yourself.",
 
-    "And if nothing else worked... chocolate is always an option. 🍫❤️"
+    "Please remember: you matter, even when nobody is asking you for anything."
 
 ];
 
@@ -92,4 +105,8 @@ const randomIndex =
 
 
 document.getElementById("message").textContent =
+<<<<<<< HEAD
     messages[randomIndex];
+=======
+    messages[randomIndex];
+>>>>>>> 070f5547fc0ea9d85108bedc0a408362f862b418

@@ -91,5 +91,4 @@ const randomIndex =
     );
 
 
-document.getElementById("message").textContent =
-    messages[randomIndex];
+document.getElementById("message").textContent = messages[randomIndex];

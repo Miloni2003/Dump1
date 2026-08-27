@@ -98,4 +98,8 @@ const randomIndex =
 
 
 document.getElementById("message").textContent =
+<<<<<<< HEAD
     messages[randomIndex];
+=======
+    messages[randomIndex];
+>>>>>>> 070f5547fc0ea9d85108bedc0a408362f862b418
